@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tugassatu.MainActivity">
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:layout_below="@id/result"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="masukkan_angka"
+        android:inputType="number"
+        tools:ignore="MissingConstraints, UnusedAttribute"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num1"
+        android:layout_marginTop="2dp"
+        android:autofillHints=""
+        android:hint="masukkan_angka"
+        android:inputType="number"
+        tools:ignore="MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_below="@id/num2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="result"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="154dp" />
+</RelativeLayout>

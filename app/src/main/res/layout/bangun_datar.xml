@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Persegi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luas Persegi"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/inputSisiPersegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan sisi"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/buttonHitungPersegi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hitung Luas" />
+
+        <TextView
+            android:id="@+id/outputPersegi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil: "
+            android:layout_marginTop="8dp" />
+
+        <!-- Persegi Panjang -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luas Persegi Panjang"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/inputPanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan panjang"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/inputLebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan lebar"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/buttonHitungPersegiPanjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hitung Luas" />
+
+        <TextView
+            android:id="@+id/outputPersegiPanjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil: "
+            android:layout_marginTop="8dp" />
+
+        <!-- Segitiga -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luas Segitiga"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/inputAlas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan alas"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/inputTinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan tinggi"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/buttonHitungSegitiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hitung Luas" />
+
+        <TextView
+            android:id="@+id/outputSegitiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil: "
+            android:layout_marginTop="8dp" />
+
+        <!-- Lingkaran -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luas Lingkaran"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/inputJariJari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan jari-jari"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/buttonHitungLingkaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hitung Luas" />
+
+        <TextView
+            android:id="@+id/outputLingkaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil: "
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>
